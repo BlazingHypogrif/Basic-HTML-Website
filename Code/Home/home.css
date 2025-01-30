@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Markazi+Text:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: "Itim", sans-serif;
+  background-color: #f4f4f4;
+  user-select: none;
+}
+
+header {
+    height: 250px;
+}
+
+.nav-bar {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between; /* Push logo-group and menu to opposite ends */
+    align-items: center;
+    padding: 0 20px; /* Add some padding on sides */
+    height: 100px;
+    font-size: 1.5rem;
+}
+
+.logo-group a{
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between logo and name */
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px; /* Space between menu items */
+    list-style: none;
+}
+
+.title {
+    text-align: center; /* Center the title text */
+    font-size: 3rem;
+    margin: 4vh; /* Add vertical spacing */
+}
+
+.hero {
+    display: flex;
+    height: 400px;
+    background-color: #d58787;
+}
+
+.projects {
+    width: 540px;
+    height: 400px;
+    background-color: blueviolet;
+    
+}
+
+.work-experience {
+    width: 700px;
+    height: 400px;
+    background-color: rgb(222, 103, 186);
+    
+}
+
+.education {
+    width: 700px;
+    height: 400px;
+    background-color: rgb(136, 198, 103);
+    
+}
+
+.footer {
+    height: 320px;
+    background-color: coral;
+}
